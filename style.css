@@ -1,6 +1,5 @@
 * {
     box-sizing: border-box;
-
 }
 
 html {
@@ -49,4 +48,9 @@ article {
 }
 
 
+.callout {
+    background: #cfc;
+    padding: 20px;
+    border-left: 4px solid #8F8;
+}
 
