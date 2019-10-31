@@ -26,8 +26,27 @@ article {
     max-width: 1000px;
     margin: 0 auto;
     padding: 10px;
-
-    
 }
+
+
+
+@media (min-width: 800px) {
+    .row {
+        display: flex;
+    }
+    .column {
+        flex: 1;
+        
+    }
+
+    .column.left {
+        margin-right: 15px;
+    }
+
+    .column.right {
+        margin-left: 15px;
+    }
+}
+
 
 
