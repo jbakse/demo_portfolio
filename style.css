@@ -1,4 +1,33 @@
-body {
- background: #eee;
- color: #008;
+* {
+    box-sizing: border-box;
+
 }
+
+html {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+nav {
+    background: black;
+    color: white;
+    padding: 10px;
+}
+
+nav a {
+    margin-right: 2em;
+}
+
+article {
+    /* border: 3px dotted blue; */
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 10px;
+
+    
+}
+
+
